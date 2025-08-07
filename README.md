@@ -28,19 +28,16 @@ All data is stored in memory, so changes reset on server restart.
    cd book-api
 Install Dependencies
 
-bash
 Copy
 Edit
 npm install
 Start the Server
 
-bash
 Copy
 Edit
 node index.js
 Server will run at:
 
-arduino
 Copy
 Edit
 http://localhost:3000
