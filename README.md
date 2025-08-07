@@ -99,10 +99,11 @@ Copy
 Edit
 http://localhost:3000/books
 Try all 4 operations: GET, POST, PUT, DELETE.
-screen shot link 1: 
-screen shot link 2:
-screen shot link 3:
-screen shot link 4:
+screen shot link 1:GET: GET.png.png 
+screen shot link 2:POST: POST.png.png 
+screen shot link 3:PUT: PUT.png.png
+screen shot link 4:DELETE: DELETE. png.png
  Author
 Nandhini Damodaran
  username :https://github.com/nandhinidamodaran/book-api.git
+Completed Task 3
