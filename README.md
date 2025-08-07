@@ -21,8 +21,7 @@ All data is stored in memory, so changes reset on server restart.
 
 ---
 
-##  How to Run This Project
-
+#  How to Run This Project:-
 1. Clone the Repository
    git clone https://github.com/nandhinidamodaran/book-api.git
    cd book-api
@@ -42,20 +41,18 @@ Copy
 Edit
 http://localhost:3000
  API Endpoints
+ 
  GET /books:-
 Returns all books
-
 Response:
-
-json
-Copy
-Edit
+ json
+ Copy
+ Edit
 []
+
 POST /books:-
 Adds a new book
-
 Request Body:
-
 json
 Copy
 Edit
@@ -63,46 +60,30 @@ Edit
   "title": "Atomic Habits",
   "author": "James Clear"
 }
-Response:
 
-json
-Copy
-Edit
-{
-  "id": 1,
-  "title": "Atomic Habits",
-  "author": "James Clear"
-}
  PUT /books/:id:-
 Updates book by ID
-
 Request Body:
-
-json
-Copy
-Edit
+ json
+ Copy
+ Edit
 {
   "title": "Updated Title",
   "author": "Updated Author"
 }
-➤ DELETE /books/:id
-Deletes book by ID
 
+DELETE /books/:id :-
+ Deletes book by ID
 Response:
-
 Status: 204 No Content
 
- Postman Testing
+ Postman Testing:
 Use Postman to send requests to:
-
-Copy
+Copy from vs code paste in Postman 
 Edit
-http://localhost:3000/books
-Try all 4 operations: GET, POST, PUT, DELETE.
-screen shot link 1:GET: GET.png.png 
-screen shot link 2:POST: POST.png.png 
-screen shot link 3:PUT: PUT.png.png
-screen shot link 4:DELETE: DELETE. png.png
+http://localhost:3000/book
+
+why I'm using .gitignore means :The .gitignore file is used to tell Git which files or folders it should not track or upload to GitHub. not important for version control — like node_modules, .env, or log files. These files can make your repository large, messy, or even insecure. so we are using .gitignore method for Git repository clean, focused, and safe.
  Author
 Nandhini Damodaran
  username :https://github.com/nandhinidamodaran/book-api.git
