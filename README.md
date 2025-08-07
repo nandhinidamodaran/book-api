@@ -99,7 +99,10 @@ Copy
 Edit
 http://localhost:3000/books
 Try all 4 operations: GET, POST, PUT, DELETE.
-
+screen shot link 1: 
+screen shot link 2:
+screen shot link 3:
+screen shot link 4:
  Author
 Nandhini Damodaran
  username :https://github.com/nandhinidamodaran/book-api.git
